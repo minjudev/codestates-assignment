@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+}
+
+.col_w30 {
+    border: 1px dotted red;
+    width: 30%;
+    height: 100vh;
+}
+
+.row_h40 {
+    border: 1px dotted #008000;
+    height: 40%;
+}
+
+.row_h20 {
+    border: 1px dotted green;
+    height: 20%;
+}
+
+.col_w70 {
+    border: 1px dotted red;
+    width: 70%;
+    height: 100vh;
+}
+
+.row_h80 {
+    border: 1px dotted green
+    height: 80%;
+}
